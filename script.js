@@ -14,7 +14,7 @@ let j1actif;
 let j2actif;
 let score=[0,0];
 let courent=0;
-let max=2;
+let max=100;
 function init() {
     let j1actif = true;
     let j2actif = false;
