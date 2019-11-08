@@ -3,3 +3,4 @@ In this game you can play with your friend so the game is that the active player
 The first player get in the global score 100 will be the Winner.
 ![alt text](imgdes.png)
 PLAY WITH YOUR FRIEND AND FIND WHO'S THE LUCKY ONE.
+#Run this little code in your computer and enjoy.
