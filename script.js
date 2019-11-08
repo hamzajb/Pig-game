@@ -14,7 +14,7 @@ let j1actif;
 let j2actif;
 let score=[0,0];
 let courent=0;
-let max=100;
+let max=2;
 function init() {
     let j1actif = true;
     let j2actif = false;
@@ -29,6 +29,7 @@ function init() {
     j2win.innerHTML="joueur 2 <i class='ion-social-tux'></i>";
     pass.style.display="block";
     lnc.style.display="block";
+    de.style.display="block";
 
 }
 init();
@@ -84,11 +85,17 @@ function winner(){
         j1win.innerHTML="joueur 1 win !!!<i class='ion-social-tux'></i>";
         pass.style.display="none";
         lnc.style.display="none";
+        de.style.display="none";
+        j2.classList.remove("actif");
+        j1.classList.add("actif");
     }
     if(score[1]>=max){
         j2win.innerHTML="joueur 2 win !!!<i class='ion-social-tux'></i>";
         pass.style.display="none";
         lnc.style.display="none";
+        de.style.display="none";
+        j1.classList.remove("actif");
+        j2.classList.add("actif");
     }
 }
 pass.addEventListener("click", ps);
