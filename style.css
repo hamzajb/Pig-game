@@ -6,8 +6,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
 }
+
 
 .clearfix::after {
     content: "";
@@ -73,8 +74,8 @@ body {
 }
 
 .actif { background-color: #f1f1f1; }
-.actif .nom-joueur { 
-    font-weight: 300; 
+.actif .nom-joueur {
+    font-weight: 300;
 }
 
 .ion-social-tux {
@@ -82,7 +83,7 @@ body {
 }
 .actif .nom-joueur .ion-social-tux {
     color: green;
-    
+
 }
 
 .box-joueur-courent {
